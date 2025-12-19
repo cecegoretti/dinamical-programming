@@ -1,8 +1,9 @@
 #return the longest palindromic substring of s
+#leetcode exercise: https://leetcode.com/problems/longest-palindromic-substring/description/?envType=problem-list-v2&envId=dynamic-programming
 
 class Solution:
     def longestPalindrome(self, s: str) -> str:
-        dp=[[0]*len(s) for j in range(len(s))] #dp[i]=longest palind substr that ends in position i
+        dp=[[0]*len(s) for j in range(len(s))] #dp[j][i]=computes if the substring from j to i is palindrome
         for j in range(len(s)):
             dp[j][j]=1
         for j in range(len(s)-1):
