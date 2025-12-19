@@ -1,4 +1,6 @@
 #given strings s and t find how many subsequences of s (not necessarly substrings) equal t
+#leetcode exercise: https://leetcode.com/problems/distinct-subsequences/?envType=problem-list-v2&envId=dynamic-programming
+#2D pd
 
 class Solution:
     def numDistinct(self, s: str, t: str) -> int:
