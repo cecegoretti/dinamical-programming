@@ -1,6 +1,6 @@
 This repository contains a selection of dynamic programming problems solved in Python. The focus is not on collecting many exercises, but on understanding and illustrating common dynamic programming ideas such as problem decomposition, optimal substructure, and recurrence relations.
 
-his repository is organized into two parts:
+This repository is organized into two parts:
 core/
 A curated selection of dynamic programming problems chosen to illustrate key patterns and ideas (state definition, recurrence relations, boundary conditions, and time–space trade-offs).
 These solutions are written with an emphasis on clarity and explicit reasoning and are intended as representative examples of my approach to dynamic programming.
