@@ -1,4 +1,7 @@
 #How to optimally rob houses given the money in each house of the street given by the array nums and that no two adjacent house can be robbes
+#leetcode exercise: https://leetcode.com/problems/house-robber/?envType=problem-list-v2&envId=dynamic-programming
+
+
 
 class Solution:
     def rob(self, nums: List[int]) -> int:
