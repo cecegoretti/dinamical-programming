@@ -1,6 +1,6 @@
 #return the longest palindromic substring of s
 #leetcode exercise: https://leetcode.com/problems/longest-palindromic-substring/description/?envType=problem-list-v2&envId=dynamic-programming
-#emory used: len(s)**2, time complexity: len(s)**2
+#emory used: O(len(s)**2), time complexity: O(len(s)**2)
 
 class Solution:
     def longestPalindrome(self, s: str) -> str:
