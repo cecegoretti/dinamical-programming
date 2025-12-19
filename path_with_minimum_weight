@@ -1,5 +1,6 @@
 #compue minimum weight of a path from top left corner to bottom right when each square of the grid has a weight
 #leetcode exercise: https://leetcode.com/problems/minimum-path-sum/?envType=problem-list-v2&envId=dynamic-programming
+#memory used: n*m, time complexity: n*m
 
 def minPathSum(self, grid: List[List[int]]) -> int:
     m=len(grid)
