@@ -1,6 +1,5 @@
 #exercise:https://leetcode.com/problems/decode-ways-ii/description/
-#time complexity: O(len(s))
-#space complexity: O(len(s)) (can be optimized to O(1))
+
 def numDecodings(self, s: str) -> int:
     ''' This function decode a string s containing numbers and *.
         Each number from 1 to 26 can encode an alphabet letter.
@@ -8,6 +7,8 @@ def numDecodings(self, s: str) -> int:
         The function trace back the value by computing the number
         of possible decodes of the tail of s. This is done by studying
         the cases of possible combination of adjacent element in s.
+        time complexity: O(len(s))
+        space complexity: O(len(s)) (can be optimized to O(1) if needed)
     '''
     n=len(s)
     dp=[0]*(n+1)
