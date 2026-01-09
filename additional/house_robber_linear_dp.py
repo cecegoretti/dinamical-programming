@@ -1,5 +1,4 @@
-#leetcode exercise: https://leetcode.com/problems/house-robber/?envType=problem-list-v2&envId=dynamic-programming
-#memory used: len(nums)= number of houses, time complexity: len(nums)
+#exercise: https://leetcode.com/problems/house-robber/?envType=problem-list-v2&envId=dynamic-programming
 
 def rob(self, nums: List[int]) -> int:
     ''' this function return the optimal
@@ -7,7 +6,7 @@ def rob(self, nums: List[int]) -> int:
     containing nums[i] gold under the constraint 
     that no adjoint houses can be robbed.
     It returns the maximum gold obtainable.
-    memory used: O(len(nums))
+    space complexity: O(len(nums))
     time complexity: O(len(nums))
     '''
     n=len(nums)
